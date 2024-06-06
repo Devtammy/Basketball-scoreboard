@@ -1,1 +1,77 @@
+body {
+    margin: 10px;
+    background: black;
 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    height: 60vh;
+    border: 3px solid white;
+    background: #1B244A;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#homescore {
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    margin-top: 10px;
+    max-width:auto;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#guestscore {
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    margin-top: 10px;
+    max-width:auto;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Open Sans', 'Verdana', sans-serif;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 32px;
+}
+
+h1 {
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 120px 0px;
+    font-size: 90px;
+    color: white;
+}
+
+/* #newgame {
+    background: none;
+    color: #F94F6D;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+} */
